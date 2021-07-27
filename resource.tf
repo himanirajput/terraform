@@ -6,7 +6,7 @@ resource "aws_instance" "s1" {
  ami = "ami-0603cbe34fd08cb81"
  instance_type = "t2.micro"
   tags = {
-    Name = "Himani-instance"
+    Name = "Himani-instance-1"
     Env = "Prod"
   }
 }
