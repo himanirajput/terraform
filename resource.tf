@@ -10,3 +10,7 @@ resource "aws_instance" "s1" {
     Env = "Prod"
   }
 }
+output "MY_PUBLIC_IP" {
+ value = aws_instance.s1.public_ip
+}
+
